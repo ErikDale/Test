@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Hogwarts</title>
+<title>Slytherin</title>
 
 <style type="text/css">
 body {
@@ -132,9 +132,9 @@ Hogwarts School of Witchcraft and Wizardry
 <div class="dropdown">
   <button class="dropbutton">Teacher/Student</button>
   <div class="dropdown-content">
-    <a href="#">Student</a>
+    <a href="Student.php">Student</a>
     <br>
-    <a href="#">Teacher</a>
+    <a href="Teacher-login.php">Teacher</a>
    
   </div>
 </div>

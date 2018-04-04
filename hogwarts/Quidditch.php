@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Hogwarts</title>
+<title>Quidditch</title>
 
 <style type="text/css">
 body {
@@ -91,7 +91,7 @@ line-height: 1.5;
 
 div.a  {
 width:1000px;
-height: 450px; 
+height: 1280px; 
 border-width:1px;
 border:solid;
 border-color: gray;
@@ -131,9 +131,9 @@ Hogwarts School of Witchcraft and Wizardry
 <div class="dropdown">
   <button class="dropbutton">Teacher/Student</button>
   <div class="dropdown-content">
-    <a href="#">Student</a>
+    <a href="Student.php">Student</a>
     <br>
-    <a href="#">Teacher</a>
+    <a href="Teacher-login.php">Teacher</a>
    
   </div>
 </div>
@@ -148,8 +148,29 @@ Hogwarts School of Witchcraft and Wizardry
 <br>
 <br>
 <div class="a">
-Ouidditch
-<h2>Quidditch...</h2>
+Quidditch
+<h2> <img src="Quidditch-rules.jpg">
+<br>
+The object of the game of Quidditch is to score more points than your opponents. Players do this by scoring goals which is done by placing a slightly deflated volleyball called the Quaffle into the opposition's baskets giving them 10 points, and by capturing the Golden Snitch which is worth 30 points.
+<br>
+<br>
+There are two ways to score during a game of Quidditch. Firstly, the Chasers can score a goal by getting possession of the Quaffle, then entering the opposition's scoring area and throwing it successfully through one of the three hoops. This gives the team 10 points. The second way to score points is for the Seeker to gain possession of the Golden Snitch. Doing so, scores the team 30 points and immediately ends the game.
+<br>
+<br>
+There is a common misunderstanding in Quidditch that the team that captures the Golden Snitch is the team that wins the match. This is technically incorrect, as the winner of the match is the team with the most points.
+Because the Snitch is worth 30-points and the game ends as soon as it is captured, the winner is almost always the team that captured it. This is not always the case, however, as technically, a team can still win the game even if they haven’t captured the Golden Snitch just as long as they have more points than the opposing team.
+<br>
+<br>
+A game of Quidditch begins with the Quaffle and Bludgers all placed in the centre of the field.
+Each team’s seven players start in their keeper zone, all with their eyes closed, this is to prevent them seeing where their Golden Snitch is.
+Once the Golden Snitch is a sufficient distance away in the judgement of the referee, then the referee will begin the game by shouting ‘brooms up!’
+Each team must then attempt to score more points than their opposition by scoring more goals by placing the Quaffle through one of the opposition nets and by capturing the Golden Snitch which also immediately ends the game.
+There is no set time limit to the game because of this, but the Golden Snitch is usually caught within an hour, although this can depend upon the fitness and experience of participants.
+During gameplay, any player that is hit by a Bludger is required to dismount their broom and run back and touch their on nets before resuming play.
+Quidditch is a full contact game and players can use force against each other in an attempt to capture the Quaffle or prevent other players scoring a goal.
+Throughout the game, the Seeker from each team’s sole duty is to capture the Golden Snitch and once this is done, the game ends.
+The winner of the match is the team with the most points at the end of the game.
+</h2>
 </div>
 
 </body>

@@ -1,14 +1,27 @@
+<?php
+$query_Points = "SELECT point.point, point.idstudent, point.house, point.reason, point.points FROM point";
+$Points = mysql_query($query_Points, $Hogwartskobling) or die(mysql_error());
+$row_Points = mysql_fetch_assoc($Points);
+$totalRows_Points = mysql_num_rows($Points);
+?>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
+<title>Student-points</title>
+<style>
+#table   {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;background-color: #999;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
 
-<title>Ravenclaw</title>
-
-<style type="text/css">
 body {
 margin: 0;
-background-color:#1B3779; 
 }
 
 ul {
@@ -17,7 +30,7 @@ margin: 0;
 
 
 #menu ul {
-background-color: #7C5C34;
+background-color: #999;
 height: 50px;
 position: relative;   	
 }
@@ -39,10 +52,10 @@ text-decoration: none;
 
 
 #menu ul li a:hover {
-background-color: #009;  
+background-color: #333;
 }
 .dropbutton   {
-background-color: #7C5C34;
+background-color: #999;
 height: 50px;
 width: 120px; 
 position: relative; 
@@ -57,7 +70,7 @@ width: 120px;
 .dropdown-content  {
 display: none;
 position: absolute;	
-background-color: #7C5C34;
+background-color: #999;
 height: 50px;
 width: 120px; 
 float: left;
@@ -70,56 +83,29 @@ color: #FFF;
 text-decoration: none; 
 }
 .dropdown-content a:hover  {
-background-color: #009;
+background-color: #333;
 }
 .dropdown:hover .dropdown-content {
 display: block;
 }
-.dropdown:hover .dropbutton {background-color: #009;
+.dropdown:hover .dropbutton {background-color: #333;
 }
 
 h1  {
 font-family: Arial, Helvetica, sans-serif; 
 text-align: center; 
 font-size: 30px; 
-color: #FFF;	
-}
-h2  {
-font-family: Arial, Helvetica, sans-serif; 
-text-align: center; 
-font-size: 18px; 
-line-height: 1.5;		
-}
+text-decoration: none;	
+}	
 
-div.a  {
-width: 700px;
-height: 270px; 
-border-width:1px;
-border:solid;
-border-color: gray;
-background-color: white;
-box-shadow: 3px 3px 3px 3px rgb(150,150,150);
-display: inline-block;
-font-color:lightgray; font-family: Arial, Helvetica, sans-serif;
-font-size:30px;
-text-align: center; 	
-}
-
-img.ravenclaw  {
-width: 500px; 
-height: 600px;
-float: right;	
-}
 </style>
 
 </head>
- 
 
 <body>
-<h1>
-Hogwarts School of Witchcraft and Wizardry 
-</h1>
-<div id="menu">  <ul>
+<h1>Points</h1>
+<div id="menu"> 
+  <ul>
  
 <li><a href="Home.php">Home</a>
 </li>
@@ -139,14 +125,9 @@ Hogwarts School of Witchcraft and Wizardry
   </div>
 </div>
 </ul>
-</div>  
+</div> 
+<br>
+<br>
 
-<br>
-<br>
-<div class="a">
-Ravenclaw
-<h2>Ravenclaw is one of the four houses of Hogwarts, founded by Rowena Ravenclaw. Members of this house are characterized by their wit, learning and wisdom. Its house colours are blue and bronze, and its symbol is an eagle. The House Ghost, the Grey Lady, was the daughter of the founder Rowena Ravenclaw. The house colours blue and bronze were chosen to represent the sky and eagle feathers respectively, both having much to do with air.</h2>
-</div>
-<img class="ravenclaw" src="Ravenclaw.jpg">
 </body>
 </html>

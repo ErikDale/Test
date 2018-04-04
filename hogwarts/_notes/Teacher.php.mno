@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_housenamesinwizard" value="name:house;datatype:string" />
+	<infoitem key="UD_Students" value="name:idstudent;datatype:int,name:firstname;datatype:string,name:middlename;datatype:string,name:lastname;datatype:string,name:house;datatype:string" />
+	<infoitem key="UD_Point" value="name:point;datatype:int,name:house;datatype:string,name:idteacher;datatype:int,name:idstudent;datatype:int,name:reason;datatype:string,name:points;datatype:string" />
+	<infoitem key="UD_Points" value="name:point;datatype:int,name:house;datatype:string,name:idteacher;datatype:int,name:idstudent;datatype:int,name:reason;datatype:string,name:points;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:point;datatype:int,name:house;datatype:string,name:idteacher;datatype:int,name:idstudent;datatype:int,name:reason;datatype:string,name:points;datatype:int" />
+</info>

@@ -1,10 +1,9 @@
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 
-<title>Hogwarts</title>
+<title>Home</title>
 
 <style type="text/css">
 body {
@@ -92,7 +91,7 @@ line-height: 1.5;
 
 div.a  {
 width:1000px;
-height: 450px; 
+height: 170px; 
 border-width:1px;
 border:solid;
 border-color: gray;
@@ -119,17 +118,17 @@ font-family: Arial, Helvetica, sans-serif;
 border-collapse: collapse;
 width: 100%;
 }	
+
 </style>
 
 </head>
 
 <body>
+
 <audio autoplay> 
 <source src="Harry-Potter-Theme-Song.mp3">
 </audio>
-<h1>
-Hogwarts School of Witchcraft and Wizardry 
-</h1>
+<h1>Hogwarts School of Witchcraft and Wizardry </h1>
 <div id="menu"> 
   <ul>
  
@@ -144,9 +143,9 @@ Hogwarts School of Witchcraft and Wizardry
 <div class="dropdown">
   <button class="dropbutton">Teacher/Student</button>
   <div class="dropdown-content">
-    <a href="#">Student</a>
+    <a href="Student.php">Student</a>
     <br>
-    <a href="#">Teacher</a>
+    <a href="Teacher-login.php">Teacher</a>
    
   </div>
 </div>
@@ -160,10 +159,11 @@ Hogwarts School of Witchcraft and Wizardry
 <br>
 <div class="a">
 Hogwarts School of Witchcraft and Wizardry 
-<h2>Hogwarts...</h2>
+<h2>Hogwarts School of Witchcraft and Wizardry is the British wizarding school, located in the Highlands of Scotland, It takes students from the United Kingdom of Great Britain and Norther Ireland, and Ireland.
+The castle is located in the mountains near a loch. Established around the 10th century, Hogwarts is considered to be one of the finest magical institutions in the wizarding world.
+</h2>
 </div>
- 
-</body>
-</html>
+<br>
+<br>
 
 

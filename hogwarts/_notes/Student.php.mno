@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <info>
-	<infoitem key="UD_Student" value="name:studentid;datatype:int,name:firstname;datatype:string,name:house;datatype:int,name:middelname;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_Student" value="name:idstudent;datatype:int,name:firstname;datatype:string,name:middlename;datatype:string,name:lastname;datatype:string,name:house;datatype:string" />
+	<infoitem key="UD_Student1" value="name:idstudent;datatype:int,name:firstname;datatype:string,name:middlename;datatype:string,name:lastname;datatype:string,name:house;datatype:string" />
+	<infoitem key="UD_Housepoint" value="name:house;datatype:string,name:SUM(point.point);datatype:real" />
 </info>
