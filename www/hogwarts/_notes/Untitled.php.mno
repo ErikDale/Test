@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Points" value="name:point;datatype:int,name:house;datatype:string,name:idstudent;datatype:int,name:idteacher;datatype:int,name:reason;datatype:string,name:points;datatype:int" />
+</info>

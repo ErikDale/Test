@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Teacherlogin" value="name:idteacher;datatype:int,name:firstname;datatype:string,name:middlename;datatype:string,name:lastname;datatype:string,name:password;datatype:string" />
+</info>

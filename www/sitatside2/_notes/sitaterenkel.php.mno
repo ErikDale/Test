@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sitater2" value="name:idsitat;datatype:int,name:tekst;datatype:string" />
+	<infoitem key="UD_sitatside2" value="name:tekst;datatype:string,name:navn;datatype:string" />
+</info>

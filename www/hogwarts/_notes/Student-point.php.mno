@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Points" value="name:idstudent;datatype:int,name:house;datatype:string,name:reason;datatype:string,name:points;datatype:int,name:idteacher;datatype:int" />
+	<infoitem key="UD_Housepoints" value="name:house;datatype:string,name:SUM(point.points);datatype:real" />
+</info>

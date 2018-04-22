@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_students" value="name:studentid;datatype:int,name:firstname;datatype:string,name:middelname;datatype:string,name:lastname;datatype:string,name:house;datatype:int" />
+	<infoitem key="UD_house" value="name:gryffindor;datatype:string,name:slytherin;datatype:string,name:hufflepuff;datatype:string,name:ravenclaw;datatype:string" />
+	<infoitem key="UD_housekomplett" value="name:gryffindor;datatype:string,name:slytherin;datatype:string,name:hufflepuff;datatype:string,name:ravenclaw;datatype:string,name:point;datatype:string" />
+</info>
